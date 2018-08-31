@@ -11,3 +11,9 @@ def get_args():
   parser.add_argument("--target", help="name of the target", required=True)
   args = parser.parse_args()
   return args
+
+
+args = get_args()
+
+args.input
+args.output
